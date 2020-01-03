@@ -23,7 +23,7 @@ class App extends React.Component {
                 job : ""
             },
             message : ""
-        },
+        };
 
         // bindings, these are functions that pass to child component
         // bind() : bind 함수는 바인드하는 함수에서 사용하는 this의 대상을 지정해주는 역할을 합니다.
@@ -156,7 +156,7 @@ class App extends React.Component {
 
     renderMessage(){
         // if message is empty
-        if(this.state.message == "") {
+        if(this.state.message === "") {
             return null;
         }
         return(
