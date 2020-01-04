@@ -10,18 +10,18 @@ export default {
     // Return every single employee within our employee collection
     getEmployees : () => {
         // Return a promise
-        return fetch('/employee')
+        return fetch('/crud/employee')
                 .then(res => res.json())
                 .then(data => data);
     },
     deleteEmployee : (_id) => {
-        return fetch(`/employee/${_id}`,
+        return fetch(`/crud/employee/${_id}`,
                     {method : 'delete'})
                     .then(res => res.json())
                     .then(data => data);
     },
     updateEmployee : (employee) => {
-        return fetch(`/employee/${employee._id}`,
+        return fetch(`/crud/employee/${employee._id}`,
                     {method: 'put',
                      body: JSON.stringify(employee),
                      headers : {
@@ -30,7 +30,7 @@ export default {
                         .then(data => data);
     },
     createEmployee : (employee) => {
-        return fetch('/employee',
+        return fetch('/crud/employee',
                     {method: 'post',
                      body: JSON.stringify(employee),
                      headers : {

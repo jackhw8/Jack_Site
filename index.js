@@ -25,7 +25,6 @@ if(process.env.NODE_ENV === 'production') {
     });
 }
 
-
 const uri = process.env.mongodb || 'mongodb://localhost:27017/mernstack';
 
 // connect to database
