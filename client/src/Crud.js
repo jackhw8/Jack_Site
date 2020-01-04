@@ -4,7 +4,7 @@ import Form from './components/Form';
 import Message from './components/Message';
 import EmployeeAPI from './EmployeeAPI';
 
-class App extends React.Component {
+class Crud extends React.Component {
     constructor(props) {
         // let us use this key word within our constructor
         super(props);
@@ -180,4 +180,4 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export default Crud;

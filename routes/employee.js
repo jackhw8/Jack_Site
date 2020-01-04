@@ -1,3 +1,7 @@
+/*
+    CRUD implementation
+*/
+
 // Bring in express
 const express = require('express')
 // Create our employee router
@@ -5,7 +9,6 @@ const employeeRouter = express.Router();
 // Bring in Employee module that we created inside model folder
 const Employee = require('../model/Employee');
 
-// CRUD
 
 /* Routing : URI(또는 경로) 및 특정한 HTTP 요청 메소드(GET,POST)인 특정 엔드포인트에 대한 클라이언트 요청에 애플리케이션이
              응답하는 방법을 결정하는 것

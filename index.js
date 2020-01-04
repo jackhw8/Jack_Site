@@ -31,7 +31,7 @@ const uri = process.env.mongodb || 'mongodb://localhost:27017/mernstack';
 
 // connect to database
 // mernstack is just datebase name, it can be anything
-mongoose.connect(uri, 
+mongoose.connect(uri,
 {
     // to avoid deprecate warning
     useNewUrlParser: true,
@@ -46,7 +46,7 @@ mongoose.connect(uri,
     else {
         console.log('successfully connected to the database');
     }
-})
+});
 
 // Set up Port
 /*
@@ -56,6 +56,6 @@ create react app listens on port 3000, and we can't have two apps listening on s
 */
 const port = process.env.PORT || 5000;
 // Tell express app to start
-app.listen(port, ()=>{
-    console.log('app is running');
-})
+app.listen(port, () => {
+    console.log(`app is running on port: ${port}`);
+});

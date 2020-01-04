@@ -25,7 +25,8 @@ const Form = (props) => {
                        placeholder="Enter Salary"
                        labelName="Salary: "
                        handleChange={props.handleChange}
-                       value={props.employee.salary}/>                       
+                       value={props.employee.salary}/>
+                <br/>                       
                 <button type="submit" className="btn btn-primary">Submit</button>
             </div>
         </form>
