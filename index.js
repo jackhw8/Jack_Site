@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 // Create routes
 const employee = require('./routes/employee');
-app.use('/employee', employee);
+app.use('/crud/employee', employee);
 
 // pw : 82t1xLo3kwIBUZ0a
 if(process.env.NODE_ENV === 'production') {
