@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 // Create routes
 const employee = require('./routes/employee');
-app.use('/employee', employee);
+app.use('/crud/employee', employee);
 
 // pw : 82t1xLo3kwIBUZ0a
 if(process.env.NODE_ENV === 'production') {
@@ -26,7 +26,6 @@ if(process.env.NODE_ENV === 'production') {
 }
 
 
-
 const uri = process.env.mongodb || 'mongodb://localhost:27017/mernstack';
 
 // connect to database
@@ -35,6 +34,7 @@ mongoose.connect(uri,
 {
     // to avoid deprecate warning
     useNewUrlParser: true,
+    useUnifiedTopology: true,
     useFindAndModify: false
 
 // call back function for error in case err happens
@@ -57,5 +57,6 @@ create react app listens on port 3000, and we can't have two apps listening on s
 const port = process.env.PORT || 5000;
 // Tell express app to start
 app.listen(port, () => {
+    console.log(uri);
     console.log(`app is running on port: ${port}`);
 });
