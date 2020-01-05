@@ -19,8 +19,9 @@ app.use('/crud/employee', employee);
 if(process.env.NODE_ENV === 'production') {
     // it's gonna tell express where our static files located
     app.use(express.static('client/build'));
-    // Serve our react app, * : any get request, send our react app
+    // Miracle line of code makes it work somehow, what is this line of code?
     app.use('*', express.static('client/build'));
+    // Serve our react app, * : any get request, send our react app
     app.get('*', (req, res) => {
         res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
     });
