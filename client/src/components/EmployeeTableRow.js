@@ -4,11 +4,19 @@ const EmployeeTableRow = (props) => {
     const {firstName, lastName, job, salary, _id} = props.employee;
     return(
         <tr>
-            <th scope="row">{_id}</th>
-            <td>{firstName}</td>
+            {
+                // <th scope="row">{_id}</th>
+                // <td>{firstName}</td>
+                // <td>{lastName}</td>
+                // <td>{job}</td>
+                // <td>{salary}</td>
+            }
+
+            <th scope="row">{firstName}</th>
             <td>{lastName}</td>
             <td>{job}</td>
             <td>{salary}</td>
+
             <td>
                 <div class="btn-group" role="group" aria-label="Basic example">
                     <button type="button" onClick={props.showEditForm.bind(this, props.employee)} className="btn btn-secondary">Edit</button>
