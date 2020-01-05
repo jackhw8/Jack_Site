@@ -20,6 +20,7 @@ if(process.env.NODE_ENV === 'production') {
     // it's gonna tell express where our static files located
     app.use(express.static('client/build'));
     // Serve our react app, * : any get request, send our react app
+    app.use('*', express.static('client/build'));
     app.get('*', (req, res) => {
         res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
     });
