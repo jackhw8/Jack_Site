@@ -12,7 +12,7 @@ const EmployeeTableRow = (props) => {
                 // <td>{salary}</td>
             }
 
-            <th scope="row">{firstName}</th>
+            <td scope="row">{firstName}</td>
             <td>{lastName}</td>
             <td>{job}</td>
             <td>{salary}</td>
