@@ -92,9 +92,9 @@ const Main = () => {
             <div className="col-sm">
               <h5 style={{'fontFamily':'Lucida Sans'}}>Contact</h5>
               <ol style={{'columns': '3', 'listStyle':'none'}}>
-                <li><SocialIcon url="https://www.linkedin.com/in/jack-hyeonwoo-kim-4b669376/"/></li>
-                <li><SocialIcon url="https://www.facebook.com/jack.hw8"/></li>
-                <li><SocialIcon bgColor="#000000" url="https://github.com/jackhw8"/></li>    
+                <li><SocialIcon url="https://www.linkedin.com/in/jack-hyeonwoo-kim-4b669376/" target="_blank"/></li>
+                <li><SocialIcon url="https://www.facebook.com/jack.hw8" target="_blank"/></li>
+                <li><SocialIcon bgColor="#000000" url="https://github.com/jackhw8" target="_blank"/></li>    
               </ol>
             </div>
           </div>
