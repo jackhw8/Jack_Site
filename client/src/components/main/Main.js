@@ -13,8 +13,7 @@ const Main = () => {
          
          <p style={{'fontSize': '25px', 'color': 'grey', 'fontFamily':'merriweather'}}>Full stack developer<br/>
          heavy lifter &amp;
-         S3 <a href="https://na.op.gg/summoner/userName=jackhyeonwoo" target="_blank" style={{'textDecoration': 'none', 'color': '#0096cc'}}>Diamond </a>
-         1 in LOL(S10 Plat…)
+         S3 <span style={{'textDecoration': 'none', 'color': '#0096cc'}}>Diamond 1</span> in LOL(S10 Plat…)
          </p>
         
         </div>
@@ -86,7 +85,9 @@ const Main = () => {
                   <a href="https://ucsd.edu/" target="_blank" style={{'textDecoration': 'none', 'color': '#0096cc'}}>UCSD</a>
                   )
                   in December of 2019.
-                  Previously, he worked for Ezian, a leading web agency in Korea that consults, develops, and manages a variety of commercial websites.
+                  Previously, he worked for
+                  <a href="http://e-zian.com/" target="_blank" style={{'textDecoration': 'none', 'color': '#0096cc'}}> Ezian</a>
+                  , a leading web agency in Korea that consults, develops, and manages a variety of commercial websites.
                 </p>
             </div>
             <div className="col-sm">
