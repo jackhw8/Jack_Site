@@ -3,21 +3,18 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Crud from './Crud';
 import Main from './components/main/Main';
-
+import Bio from './components/main/Bio';
 
 class App extends React.Component {
     render() {
         return (
             <BrowserRouter>
-                <div className="App">
                     <Navbar />
-                    <div className="container">
                         <Switch>
                             <Route exact path='/' component={Main}/>
+                            <Route path='/bio' component={Bio}/>
                             <Route path='/crud' component={Crud}/>
-                        </Switch>
-                    </div>
-                </div>
+                        </Switch>                    
             </BrowserRouter>
         );
     }

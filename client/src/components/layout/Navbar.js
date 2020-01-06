@@ -1,20 +1,21 @@
 import React from 'react';
+import '../../main.css';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg">
-            <div className="container">    
-                <ul className="nav">
-                    <a className="nav-link active" href="/">Home</a>
-                </ul>
-                <ul className="nav">
-                    <li className="nav-item">
-                        <a className="nav-link" href="/crud">CRUD project</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/pic/Resume.pdf" target="_blank">Resume</a>
-                    </li>
-                </ul>
+        <nav className="navbar navbar-expand-md navbar-light" style={{'fontFamily':'Comic Sans','fontWeight':'bold'}}>
+            <a href="/" className="navbar-brand">Jack Kim</a>
+
+            <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>       
+
+            <div className="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul className="navbar-nav ml-auto">
+                <li><a href="/bio" className="nav-link">Bio</a></li>
+                <li><a href="/crud" className="nav-link">CRUD Project</a></li>
+                <li><a href="/pic/Resume.pdf" target="_blank" className="nav-link">Resume</a></li>
+            </ul>
             </div>
         </nav>
     )
