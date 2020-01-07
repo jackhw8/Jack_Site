@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../main.css';
 
 const Navbar = () => {
     return (
@@ -10,11 +9,11 @@ const Navbar = () => {
                 <span className="navbar-toggler-icon"></span>
             </button>       
 
-            <div className="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul className="navbar-nav ml-auto">
-                <li><a href="/crud" className="nav-link">CRUD Project</a></li>
-                <li><a href="/pic/Resume.pdf" target="_blank" className="nav-link">Resume</a></li>
-            </ul>
+            <div className="navbar-collapse" id="navbarsExampleDefault">
+                <ul className="navbar-nav ml-auto">
+                    <li><a href="/crud" className="nav-link" style={{'color':'black'}}>CRUD Project</a></li>
+                    <li><a href="/pic/Resume.pdf" target="_blank" className="nav-link" style={{'color':'black'}}>Resume</a></li>
+                </ul>
             </div>
         </nav>
     )

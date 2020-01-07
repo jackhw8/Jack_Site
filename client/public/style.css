@@ -12,6 +12,35 @@ h3, .h3 {
     font-weight: bold;
 }
 
+.p1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .p3 {
     padding: 2rem;
+}
+
+.px2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.a1 {
+    color: #111;
+    width: 120px;
+}
+
+.i1 {
+    width: 1.28571429em;
+    padding-right: 0.3rem;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+    font-size: 2em;
+    
+}
+
+.ul1 {
+    list-style: none;
+    padding-left: 0;
+    font-weight: 550;
 }

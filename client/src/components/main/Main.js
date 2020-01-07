@@ -1,6 +1,4 @@
 import React from 'react';
-import '../../main.css';
-import { SocialIcon } from 'react-social-icons';
 
 const Main = () => {
   return (
@@ -10,12 +8,10 @@ const Main = () => {
          <p></p>
          <img src="/pic/pic6.png" alt=""></img>
          <h1 style={{'fontWeight':'700'}}>Jack Hyeonwoo Kim</h1>
-         
-         <p style={{'fontSize': '25px', 'color': 'grey'}}>Full stack developer<br/>
-         Heavy lifter &amp;
-        <span style={{'textDecoration': 'none', 'color': '#0096cc'}}> Diamond 1</span> in LOL
+         <p style={{'fontSize': '25px', 'color': 'grey', 'fontFamily': 'open sans,sans-serif'}}>Full stack developer<br/>
+          Heavy lifter &amp;
+          <span style={{'textDecoration': 'none', 'color': '#0096cc'}}> Diamond 1</span> in LOL
          </p>
-        
         </div>
       </header>
 
@@ -29,8 +25,7 @@ const Main = () => {
           <div class="row" >
             <div className="col-sm-9">
             <h3 className="mb2">About me</h3>
-            <p style={{'line-height':'1.75rem'}}>
-                
+            <p className="p1" style={{'line-height':'1.75rem'}}>                
                 Hyeonwoo (Jack) Kim loves programming, Dodgers games, League of Legends, and lifting heavy things. 
                 He does not love talking about himself in the 3rd person. 
                 Jack is also a full stack developer, especially gifted when it comes to website development. 
@@ -52,17 +47,41 @@ const Main = () => {
                 He is currently seeking employment at an organization that mirrors these values. 
             </p>
             </div>
-            <div className="col-sm-3">
+            <div className="col-sm-3 px2">
               <h3 className="mb2">Contact</h3>
-              <ol style={{'columns': '3', 'listStyle':'none'}}>
-                <li><SocialIcon url="https://www.linkedin.com/in/jack-hyeonwoo-kim-4b669376/" target="_blank"/></li>
-                <li><SocialIcon url="https://www.facebook.com/jack.hw8" target="_blank"/></li>
-                <li><SocialIcon bgColor="#000000" url="https://github.com/jackhw8" target="_blank"/></li>    
-              </ol>
+              <ul className="ul1">
+                <li>
+                  <a href="https://www.linkedin.com/in/jack-hyeonwoo-kim-4b669376/" className="a1" target="_blank" rel="noopener noreferrer" style={{'textDecoration': 'none'}}>
+                    <img alt="LinkedIn" src="/pic/linkedin.svg" className="i1"></img>
+                     LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/jack.hw8?ref=bookmarks" className="a1" target="_blank" rel="noopener noreferrer" style={{'textDecoration': 'none'}}>
+                    <img alt="Facebook" src="/pic/facebook.svg" className="i1"></img>
+                     Facebook
+                  </a>
+                </li>
+                <li>
+                <a href="https://github.com/jackhw8" className="a1" target="_blank" rel="noopener noreferrer" style={{'textDecoration': 'none'}}>
+                    <img alt="Github" src="/pic/github.svg" className="i1"></img>
+                     Github
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </main>
+
+
+
+
+
+
+
+
+
       </>
   )
 }
