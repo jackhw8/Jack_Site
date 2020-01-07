@@ -8,7 +8,7 @@ const Main = () => {
       <header className="bg-light border-top border-bottom">
        <div className="text-center">
          <p></p>
-         <img src="/pic/pic3.png"></img>
+         <img src="/pic/pic6.png"></img>
          <h1>Jack Hyeonwoo Kim</h1>
          
          <p style={{'fontSize': '25px', 'color': 'grey', 'fontFamily':'merriweather'}}>Full stack developer<br/>
