@@ -8,9 +8,9 @@ const Main = () => {
          <p></p>
          <img src="/pic/pic2.png" alt=""></img>
          <h1 style={{'fontWeight':'700'}}>Jack Hyeonwoo Kim</h1>
-         <p style={{'fontSize': '25px', 'color': 'grey', 'fontFamily': 'open sans,sans-serif'}}>Full stack developer<br/>
-          Heavy lifter &amp;
-          <span style={{'textDecoration': 'none', 'color': '#0096cc'}}> Diamond 1</span> in LOL
+         <p style={{'fontSize': '25px', 'color': 'grey', 'fontFamily': 'open sans,sans-serif'}}>Full Stack Developer<br/>
+          Heavy Lifter &amp;
+          <span style={{'textDecoration': 'none', 'color': '#0096cc'}}> Dodgers #1 Fan </span>
          </p>
         </div>
       </header>
