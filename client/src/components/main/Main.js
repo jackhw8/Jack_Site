@@ -6,7 +6,7 @@ const Main = () => {
       <header className="bg-light border-top border-bottom">
        <div className="text-center">
          <p></p>
-         <img src="/pic/pic6.png" alt=""></img>
+         <img src="/pic/pic2.png" alt=""></img>
          <h1 style={{'fontWeight':'700'}}>Jack Hyeonwoo Kim</h1>
          <p style={{'fontSize': '25px', 'color': 'grey', 'fontFamily': 'open sans,sans-serif'}}>Full stack developer<br/>
           Heavy lifter &amp;
@@ -50,19 +50,19 @@ const Main = () => {
             <div className="col-sm-3 px2">
               <h3 className="mb2">Contact</h3>
               <ul className="ul1">
-                <li>
+                <li className="li1">
                   <a href="https://www.linkedin.com/in/jack-hyeonwoo-kim-4b669376/" className="a1" target="_blank" rel="noopener noreferrer" style={{'textDecoration': 'none'}}>
                     <img alt="LinkedIn" src="/pic/linkedin.svg" className="i1"></img>
                      LinkedIn
                   </a>
                 </li>
-                <li>
+                <li className="li1">
                   <a href="https://www.facebook.com/jack.hw8?ref=bookmarks" className="a1" target="_blank" rel="noopener noreferrer" style={{'textDecoration': 'none'}}>
                     <img alt="Facebook" src="/pic/facebook.svg" className="i1"></img>
                      Facebook
                   </a>
                 </li>
-                <li>
+                <li className="li1">
                 <a href="https://github.com/jackhw8" className="a1" target="_blank" rel="noopener noreferrer" style={{'textDecoration': 'none'}}>
                     <img alt="Github" src="/pic/github.svg" className="i1"></img>
                      Github
