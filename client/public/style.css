@@ -61,16 +61,16 @@ Project_Main CSS
     box-sizing: border-box;
 }
 
-.a2 {
+.atag2 {
     text-decoration: none;
     color: black;
 }
 
-.a2:hover {
+.atag2:hover {
     text-decoration: none;
 }
 
-.a3 {
+.atag3 {
     font-size: 0.75rem;
     display: block;
     color: #0096cc;
@@ -91,7 +91,7 @@ Project_Main CSS
     border-bottom-color: rgba(0,0,0,.125);
 }
 
-.py3 {
+.pad3 {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
