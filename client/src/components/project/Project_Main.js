@@ -17,7 +17,7 @@ const Project_Main = () => {
 
         <main className="container" style={{'maxWidth': '40em'}}>
             {/* Ezian or Mcomics */}
-            <div className="row mb2 py3 border-bottom border-light-gray"  style={{'paddingTop':'30px'}}>
+            <div className="row mb2 border-bottom border-light-gray py3">
                 {/* mcomics pic */}
                 <div className="col sm-col-4 px2 div1">
                     <a href="https://www.mcomics.co.kr/" target="_blank" rel="noopener noreferrer">
@@ -26,10 +26,10 @@ const Project_Main = () => {
                 </div>
                 {/* mcomics explanation */}
                 <div className="col sm-col-8 px2 mb2 div2">
-                    <a href="https://www.mcomics.co.kr/" className="a2" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.mcomics.co.kr/" target="_blank" rel="noopener noreferrer" className="a2">
                         <h2>Mcomics</h2>
                     </a>
-                    <a href="https://www.mcomics.co.kr/" className="a2 mb2" target="_blank" rel="noopener noreferrer" style={{'fontSize':'0.75rem', 'display':'block', 'color': '#0096cc'}}>
+                    <a href="https://www.mcomics.co.kr/" target="_blank" rel="noopener noreferrer" className="a2 a3">
                         https://www.mcomics.co.kr/
                     </a>
                     <p style={{'textAlign': 'left'}}>
@@ -40,7 +40,7 @@ const Project_Main = () => {
             </div>
 
             {/* Python Auto-receipt */}
-            <div className="row mxn2 clearfix mb2 py3 border-bottom border-light-gray circle-line"  style={{'paddingTop':'30px'}}>
+            <div className="row mb2 border-bottom border-light-gray py3">
                 {/* mcomics pic */}
                 <div className="col sm-col-4 px2 div1">
                     <a href="https://www.mcomics.co.kr/" target="_blank" rel="noopener noreferrer">
@@ -49,10 +49,10 @@ const Project_Main = () => {
                 </div>
                 {/* mcomics explanation */}
                 <div className="col sm-col-8 px2 mb2 div2">
-                    <a href="https://www.mcomics.co.kr/" className="a2" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.mcomics.co.kr/" target="_blank" rel="noopener noreferrer" className="a2">
                         <h2>Mcomics</h2>
                     </a>
-                    <a href="https://www.mcomics.co.kr/" className="a2 mb2" target="_blank" rel="noopener noreferrer" style={{'fontSize':'0.75rem', 'display':'block', 'color': '#0096cc'}}>
+                    <a href="https://www.mcomics.co.kr/" target="_blank" rel="noopener noreferrer" className="a2 a3">
                         https://www.mcomics.co.kr/
                     </a>
                     <p style={{'textAlign': 'left'}}>

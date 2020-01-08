@@ -70,6 +70,12 @@ Project_Main CSS
     text-decoration: none;
 }
 
+.a3 {
+    font-size: 0.75rem;
+    display: block;
+    color: #0096cc;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
     .div1 {
         text-align: center;
@@ -87,7 +93,7 @@ Project_Main CSS
 
 .py3 {
     padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 
