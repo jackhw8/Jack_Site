@@ -167,6 +167,17 @@ class Crud extends React.Component {
     // main render function for our app component
     render() {
         return (
+            <>
+            <header className="bg-light border-top border-bottom">
+            <div className="text-center">
+              <p></p>
+              <h1 style={{'fontWeight':'700'}}>Projects</h1>
+              <p style={{'fontSize': '25px', 'color': 'grey', 'fontFamily': 'open sans,sans-serif'}}>Check out my projects!<br/>
+              </p>
+             </div>
+           </header>
+
+
             <div className="row">
                 <div className="col"></div>
                 <div className="col-10">
@@ -176,6 +187,7 @@ class Crud extends React.Component {
                 </div>
                 <div className="col"></div>
             </div>
+            </>
         )
     }
 }

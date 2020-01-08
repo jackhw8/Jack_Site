@@ -21,11 +21,11 @@ const Main = () => {
       */}
 
       <main className="p3">
-        <div class="container" style={{'marginLeft': 'auto', 'marginRight': 'auto'}}>
-          <div class="row" >
+        <div className="container" style={{'marginLeft': 'auto', 'marginRight': 'auto'}}>
+          <div className="row" >
             <div className="col-sm-9">
             <h3 className="mb2">About me</h3>
-            <p className="p1" style={{'line-height':'1.75rem'}}>                
+            <p className="p1" style={{'lineHeight':'1.75rem'}}>                
                 Hyeonwoo (Jack) Kim loves programming, Dodgers games, League of Legends, and lifting heavy things. 
                 He does not love talking about himself in the 3rd person. 
                 Jack is also a full stack developer, especially gifted when it comes to website development. 
@@ -50,19 +50,19 @@ const Main = () => {
             <div className="col-sm-3 px2">
               <h3 className="mb2">Contact</h3>
               <ul className="ul1">
-                <li className="li1">
+                <li>
                   <a href="https://www.linkedin.com/in/jack-hyeonwoo-kim-4b669376/" className="a1" target="_blank" rel="noopener noreferrer" style={{'textDecoration': 'none'}}>
                     <img alt="LinkedIn" src="/pic/linkedin.svg" className="i1"></img>
                      LinkedIn
                   </a>
                 </li>
-                <li className="li1">
+                <li>
                   <a href="https://www.facebook.com/jack.hw8?ref=bookmarks" className="a1" target="_blank" rel="noopener noreferrer" style={{'textDecoration': 'none'}}>
                     <img alt="Facebook" src="/pic/facebook.svg" className="i1"></img>
                      Facebook
                   </a>
                 </li>
-                <li className="li1">
+                <li>
                 <a href="https://github.com/jackhw8" className="a1" target="_blank" rel="noopener noreferrer" style={{'textDecoration': 'none'}}>
                     <img alt="Github" src="/pic/github.svg" className="i1"></img>
                      Github

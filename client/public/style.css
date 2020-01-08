@@ -44,6 +44,12 @@ h3, .h3 {
     font-weight: 550;
 }
 
+.navActive{
+    font-weight: bolder;
+}
+
+
+
 /*
 ##Device = Most of the Smartphones Mobiles (Portrait)
 ##Screen = B/w 320px to 479px
