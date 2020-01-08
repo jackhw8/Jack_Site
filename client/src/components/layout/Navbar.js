@@ -21,7 +21,7 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarMenu">
                 <ul className="navbar-nav ml-auto">
                     <li>
-                        <NavLink className="nav-link" activeClassName="navActive" to="/crud">CRUD Project</NavLink>
+                        <a href="/crud" className="nav-link">CRUD Project</a>
                     </li>
                     <li>
                         <Link to="/pic/Resume.pdf" target="_blank" className="nav-link">

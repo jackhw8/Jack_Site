@@ -17,7 +17,7 @@ const Main = () => {
 
 
       {/*
-      <a href="https://ucsd.edu/" target="_blank" style={{'textDecoration': 'none', 'color': '#0096cc'}} rel="noopener noreferrer">UCSD</a>
+      <a href="http://e-zian.com/" target="_blank" style={{'textDecoration': 'none', 'color': '#0096cc'}} rel="noopener noreferrer">UCSD</a>
       */}
 
       <main className="p3">
@@ -25,7 +25,7 @@ const Main = () => {
           <div className="row" >
             <div className="col-sm-9">
             <h3 className="mb2">About me</h3>
-            <p className="p1" style={{'lineHeight':'1.75rem'}}>                
+            <p className="p1" style={{'lineHeight':'1.75rem'}}>
                 Hyeonwoo (Jack) Kim loves programming, Dodgers games, League of Legends, and lifting heavy things. 
                 He does not love talking about himself in the 3rd person. 
                 Jack is also a full stack developer, especially gifted when it comes to website development. 
@@ -38,8 +38,9 @@ const Main = () => {
                 Years later, this experience would be the inspiration that birthed his career as a Software Engineer.
 
                 <br/>
-                Immediately after servicing as a KATUSA (Korean Augmentation to the U.S. Army), Jack landed his first internship as an engineer for Ezian,
-                a leading web agency in Korea that consults, develops, and manages a variety of commercial websites.
+                Immediately after servicing as a KATUSA (Korean Augmentation to the U.S. Army), Jack landed his first internship as an engineer for
+                <a href="http://e-zian.com/" target="_blank" style={{'textDecoration': 'none', 'color': '#0096cc'}} rel="noopener noreferrer"> Ezian</a>
+                , a leading web agency in Korea that consults, develops, and manages a variety of commercial websites.
                 Jack’s military experience and time at Ezian taught him how to communicate effectively,
                 reach target goals within strict deadlines, and develop advanced web applications.
                 As someone whose career has always revolved around creating innovative business solutions

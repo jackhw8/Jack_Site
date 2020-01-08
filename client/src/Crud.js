@@ -168,25 +168,24 @@ class Crud extends React.Component {
     render() {
         return (
             <>
-            <header className="bg-light border-top border-bottom">
-            <div className="text-center">
-              <p></p>
-              <h1 style={{'fontWeight':'700'}}>Projects</h1>
-              <p style={{'fontSize': '25px', 'color': 'grey', 'fontFamily': 'open sans,sans-serif'}}>Check out my projects!<br/>
-              </p>
-             </div>
-           </header>
+                <header className="bg-light border-top border-bottom" style={{'marginBottom': '20px'}}>
+                    <div className="text-center">
+                        <p></p>
+                            <h1 style={{'fontWeight':'700'}}>Projects</h1>
+                            <p style={{'fontSize': '25px', 'color': 'grey', 'fontFamily': 'open sans,sans-serif'}}>Check out my projects!<br/>
+                        </p>
+                    </div>
+                </header>
 
-
-            <div className="row">
-                <div className="col"></div>
-                <div className="col-10">
-                    {this.renderEmployeeTable()}
-                    {this.renderForm()}
-                    {this.renderMessage()}
+                <div className="row">
+                    <div className="col"></div>
+                    <div className="col-10">
+                        {this.renderEmployeeTable()}
+                        {this.renderForm()}
+                        {this.renderMessage()}
+                    </div>
+                    <div className="col"></div>
                 </div>
-                <div className="col"></div>
-            </div>
             </>
         )
     }
