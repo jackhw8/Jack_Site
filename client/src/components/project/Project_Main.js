@@ -17,7 +17,7 @@ const Project_Main = () => {
 
         <main className="container" style={{'maxWidth': '40em'}}>
             {/* Ezian or Mcomics */}
-            <div className="row mxn2 clearfix mb2 py3 border-bottom border-light-gray circle-line"  style={{'paddingTop':'30px'}}>
+            <div className="row mb2 py3 border-bottom border-light-gray"  style={{'paddingTop':'30px'}}>
                 {/* mcomics pic */}
                 <div className="col sm-col-4 px2 div1">
                     <a href="https://www.mcomics.co.kr/" target="_blank" rel="noopener noreferrer">
