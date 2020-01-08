@@ -21,8 +21,8 @@ const Main = () => {
       */}
 
       <main className="p3">
-        <div className="container" style={{'marginLeft': 'auto', 'marginRight': 'auto'}}>
-          <div className="row" >
+        <div className="container">
+          <div className="row">
             <div className="col-sm-9">
             <h3 className="mb2">About me</h3>
             <p className="p1" style={{'lineHeight':'1.75rem'}}>
