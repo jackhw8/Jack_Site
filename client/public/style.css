@@ -73,7 +73,6 @@ Project_Main CSS
 @media (min-width: 320px) and (max-width: 480px) {
     .div1 {
         text-align: center;
-        padding-left: 0;
     }
     .div2 {
         padding-right: 0;
@@ -86,11 +85,12 @@ Project_Main CSS
     border-bottom-color: rgba(0,0,0,.125);
 }
 
-.clearfix:after {
-    clear: both;
+.py3 {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
-.clearfix:before,.clearfix:after {
+.clearfix:before, .clearfix:after {
     content: " ";
     display: table;
 }
@@ -106,14 +106,15 @@ Project_Main CSS
     left: 50%;
     margin-left: -.25rem;
     background: #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
     border-radius: 100%;
     box-shadow: #fff 0 0 0 5px;
 }
-
-.py3 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.clearfix:after {
+    clear: both;
 }
+
 
 /*
 ##Device = Most of the Smartphones Mobiles (Portrait)
