@@ -47,7 +47,7 @@ const Project_Main = () => {
                 {/* Do1 pic */}
                 <div className="col sm-col-4 px2 div1">
                     <a href="https://github.com/jackhw8/Donation-Receipt-Auto-Transaction" target="_blank" rel="noopener noreferrer">
-                        <img src="/pic/project/do1.png" alt="do1" className="i2" style={{'width':'350px', 'height':'350px'}}></img>
+                        <img src="/pic/project/py1.PNG" alt="do1" className="i2" style={{'width':'350px', 'height':'350px'}}></img>
                     </a>
                 </div>
                 {/* Do1 explanation */}
