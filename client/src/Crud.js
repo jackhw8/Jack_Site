@@ -177,14 +177,16 @@ class Crud extends React.Component {
                     </div>
                 </header>
 
-                <div className="row">
-                    <div className="col"></div>
-                    <div className="col-10">
-                        {this.renderEmployeeTable()}
-                        {this.renderForm()}
-                        {this.renderMessage()}
+                <div className="container">
+                    <div className="row">
+                        <div className="col"></div>
+                        <div className="col-10">
+                            {this.renderEmployeeTable()}
+                            {this.renderForm()}
+                            {this.renderMessage()}
+                        </div>
+                        <div className="col"></div>
                     </div>
-                    <div className="col"></div>
                 </div>
             </>
         )
