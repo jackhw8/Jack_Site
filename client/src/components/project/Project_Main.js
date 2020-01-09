@@ -42,37 +42,15 @@ const Project_Main = () => {
                 </div>
             </div>
 
-            {/* Python Auto-receipt */}
-            <div className="row mb2 border-bottom border-light-gray pad3">
-                {/* Do1 pic */}
-                <div className="col sm-col-4 px2 div1">
-                    <a href="https://github.com/jackhw8/Donation-Receipt-Auto-Transaction" target="_blank" rel="noopener noreferrer">
-                        <img src="/pic/project/py1.PNG" alt="do1" className="i2" style={{'width':'350px', 'height':'350px'}}></img>
-                    </a>
-                </div>
-                {/* Do1 explanation */}
-                <div className="col sm-col-8 px2 mb2 div2">
-                    <a href="https://github.com/jackhw8/Donation-Receipt-Auto-Transaction" target="_blank" rel="noopener noreferrer" className="atag2">
-                        <h3 style={{'marginBottom':'0'}}>Donation Receipt : Auto Transaction</h3>
-                    </a>
-                    <a href="https://github.com/jackhw8/Donation-Receipt-Auto-Transaction/" target="_blank" rel="noopener noreferrer" className="atag2 atag3">
-                        https://github.com/jackhw8/Donation-Receipt-Auto-Transaction
-                    </a>
-                    <p style={{'textAlign': 'left'}}>
-                        Developed Python scripts to automate the process of reading input data for more than 1,200 people and outputting individual receipts.
-                    </p>
-                </div>
-            </div>
-
             {/* In-Class Live Chat */}
             <div className="row mb2 border-bottom border-light-gray pad3">
-                {/* Do1 pic */}
+                {/* livechat pic */}
                 <div className="col sm-col-4 px2 div1">
                     <a href="https://github.com/jackhw8/In-Class-Live-Chat" target="_blank" rel="noopener noreferrer">
                         <img src="/pic/project/inclass1.PNG" alt="do1" className="i2" style={{'width':'350px', 'height':'350px'}}></img>
                     </a>
                 </div>
-                {/* Do1 explanation */}
+                {/* livechat explanation */}
                 <div className="col sm-col-8 px2 mb2 div2">
                     <a href="https://github.com/jackhw8/In-Class-Live-Chat" target="_blank" rel="noopener noreferrer" className="atag2">
                         <h3 style={{'marginBottom':'0'}}>In-Class Live Chat</h3>
@@ -85,7 +63,6 @@ const Project_Main = () => {
                     </p>
                 </div>
             </div>
-
 
 
             {/* Web Components */}
@@ -110,16 +87,38 @@ const Project_Main = () => {
                 </div>
             </div>
 
+            {/* Python Auto-receipt */}
+            <div className="row mb2 border-bottom border-light-gray pad3">
+                {/* py1 pic */}
+                <div className="col sm-col-4 px2 div1">
+                    <a href="https://github.com/jackhw8/Donation-Receipt-Auto-Transaction" target="_blank" rel="noopener noreferrer">
+                        <img src="/pic/project/py1.PNG" alt="do1" className="i2" style={{'width':'350px', 'height':'350px'}}></img>
+                    </a>
+                </div>
+                {/* python explanation */}
+                <div className="col sm-col-8 px2 mb2 div2">
+                    <a href="https://github.com/jackhw8/Donation-Receipt-Auto-Transaction" target="_blank" rel="noopener noreferrer" className="atag2">
+                        <h3 style={{'marginBottom':'0'}}>Donation Receipt : Auto Transaction</h3>
+                    </a>
+                    <a href="https://github.com/jackhw8/Donation-Receipt-Auto-Transaction/" target="_blank" rel="noopener noreferrer" className="atag2 atag3">
+                        https://github.com/jackhw8/Donation-Receipt-Auto-Transaction
+                    </a>
+                    <p style={{'textAlign': 'left'}}>
+                        Developed Python scripts to automate the process of reading input data for more than 1,200 people and outputting individual receipts.
+                    </p>
+                </div>
+            </div>    
+
 
             {/* CRUD */}
             <div className="row mb2 border-bottom border-light-gray pad3">
-                {/* Web-Comp pic */}
+                {/* CRUD pic */}
                 <div className="col sm-col-4 px2 div1">
                     <a href="/crud" rel="noopener noreferrer">
                         <img src="/pic/project/crud1.PNG" alt="do1" className="i2" style={{'width':'350px', 'height':'350px'}}></img>
                     </a>
                 </div>
-                {/* Web-Comp explanation */}
+                {/* CRUD explanation */}
                 <div className="col sm-col-8 px2 mb2 div2">
                     <a href="/crud" rel="noopener noreferrer" className="atag2">
                         <h3 style={{'marginBottom':'0'}}>CRUD</h3>
