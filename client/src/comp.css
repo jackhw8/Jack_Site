@@ -28,16 +28,6 @@ Project_Main CSS
     box-sizing: border-box;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-    .div1 {
-        text-align: center;
-    }
-    .div2 {
-        padding-top : 20px;
-        padding-right: 0;
-    }
-}
-
 .border-bottom {
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -47,4 +37,14 @@ Project_Main CSS
 .pad3 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .div1 {
+        text-align: center;
+    }
+    .div2 {
+        padding-top : 20px;
+        padding-right: 0;
+    }
 }
