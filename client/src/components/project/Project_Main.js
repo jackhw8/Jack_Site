@@ -34,9 +34,10 @@ const Project_Main = () => {
                         https://www.mcomics.co.kr/
                     </a>
                     <p style={{'textAlign': 'left'}}>
-                        Mcomics is a website of web comics and graphic novels.
                         Designed and developed graphic image presentation, front-end user authentication, 
-                        and various UI elements for the beta-launch of a web comics/graphic novels hosting website (mcomics.co.kr) in an iterative-driven team environment.
+                        and various UI elements for the beta-launch of a web comics/graphic novels hosting  
+                        <a href="https://www.mcomics.co.kr/" target="_blank" style={{'textDecoration': 'none', 'color': '#0096cc'}} rel="noopener noreferrer"> mcomics.co.kr </a>
+                        in an iterative-driven team environment.
                     </p>
                 </div>
             </div>
