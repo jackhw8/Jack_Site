@@ -1,3 +1,7 @@
+/*
+Project_Main CSS
+*/
+
 .atag2 {
     text-decoration: none;
     color: black;
@@ -11,6 +15,16 @@
     font-size: 0.75rem;
     display: block;
     color: #0096cc;
+}
+
+.div1 {
+    float: left;
+    box-sizing: border-box;
+}
+
+.div2 {
+    float: left;
+    box-sizing: border-box;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
