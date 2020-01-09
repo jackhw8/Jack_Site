@@ -18,10 +18,10 @@ const Navbar = () => {
                     {/*
                     이유는 모르겠는데 a 태그 대신 NavLink 쓰면 햄버거 메뉴가 저절로 안접힘 리다이렉트했을때
                     navbar-nav 붓스트랩에서 제공하는 css가 NavLink하고 연결되어 있지 않아서? 안되는거 같음
-                    */}
                     <li>
                         <a href="/crud" className="nav-link">CRUD Project</a>
                     </li>
+                    */}
                     <li>
                         <Link to="/pic/Resume.pdf" target="_blank" className="nav-link">
                             RESUME

@@ -171,8 +171,8 @@ class Crud extends React.Component {
                 <header className="bg-light border-top border-bottom" style={{'marginBottom': '20px'}}>
                     <div className="text-center">
                         <p></p>
-                            <h1 style={{'fontWeight':'700'}}>Projects</h1>
-                            <p style={{'fontSize': '25px', 'color': 'grey', 'fontFamily': 'open sans,sans-serif'}}>Check out my projects!<br/>
+                            <h1 style={{'fontWeight':'700'}}>CRUD</h1>
+                            <p style={{'fontSize': '25px', 'color': 'grey', 'fontFamily': 'open sans,sans-serif'}}>Create, Read, Update, Delete<br/>
                         </p>
                     </div>
                 </header>
