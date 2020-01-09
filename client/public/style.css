@@ -61,42 +61,6 @@ Project_Main CSS
     box-sizing: border-box;
 }
 
-.atag2 {
-    text-decoration: none;
-    color: black;
-}
-
-.atag2:hover {
-    text-decoration: none;
-}
-
-.atag3 {
-    font-size: 0.75rem;
-    display: block;
-    color: #0096cc;
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-    .div1 {
-        text-align: center;
-    }
-    .div2 {
-        padding-right: 0;
-    }
-}
-
-.border-bottom {
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: rgba(0,0,0,.125);
-}
-
-.pad3 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-
 
 /*
 ##Device = Most of the Smartphones Mobiles (Portrait)

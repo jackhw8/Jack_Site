@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../comp.css';
 
 const Project_Main = () => {
     return (
